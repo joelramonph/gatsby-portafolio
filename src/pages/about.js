@@ -1,7 +1,9 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 export default function About() {
   return (
+    <Layout>
     <div>
         <h1>About Me</h1>
         <p>
@@ -22,5 +24,6 @@ export default function About() {
           veritatis, architecto possimus.
         </p>
     </div>
+    </Layout>
   )
 }
